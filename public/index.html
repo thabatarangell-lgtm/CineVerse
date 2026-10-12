@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVerse — Início</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="CineVerse início"><span class="brand-icon">🎬</span></a>
+    <nav>
+      <a class="active" href="index.html">Início</a>
+      <a href="#catalogo">Catálogo</a>
+      <a class="nav-login" href="login.html">Entrar</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <img src="https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg" alt="" class="hero-image">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">SEU PRÓXIMO FILME FAVORITO</span>
+        <h1>DOOMSDAY IS COMING</h1>
+        <p>Histórias incríveis começam com um play.</p>
+        <a class="primary-button" href="#catalogo">Explorar catálogo <span>→</span></a>
+      </div>
+      <div class="hero-dots"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">ESCOLHA O QUE ASSISTIR</p><h2>Em destaque</h2></div>
+        <a href="#filmes" class="text-link">Ver catálogo <span>↗</span></a>
+      </div>
+      <div class="movie-grid" id="filmes">
+        <article class="movie-card">
+          <a class="poster-link" href="#meninas"><img src="https://image.tmdb.org/t/p/w500/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg" alt="Pôster de Meninas Malvadas"></a>
+          <div class="movie-info"><div><h3>Meninas Malvadas</h3><p>Comédia · 2004</p></div><span class="rating">★ 7.1</span></div>
+        </article>
+        <article class="movie-card">
+          <a class="poster-link" href="#dragao"><img src="https://image.tmdb.org/t/p/w500/ygGmAO60t8LyFDvIKoQuaKQhT3x.jpg" alt="Pôster de Como Treinar o Seu Dragão"></a>
+          <div class="movie-info"><div><h3>Como Treinar o Seu Dragão</h3><p>Animação · 2010</p></div><span class="rating">★ 7.9</span></div>
+        </article>
+        <article class="movie-card">
+          <a class="poster-link" href="#aranhaverso"><img src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj714vD.jpg" alt="Pôster de Homem-Aranha: Através do Aranhaverso"></a>
+          <div class="movie-info"><div><h3>Homem-Aranha: Através do Aranhaverso</h3><p>Animação · 2023</p></div><span class="rating">★ 8.6</span></div>
+        </article>
+        <article class="movie-card">
+          <a class="poster-link" href="#jurassic"><img src="https://image.tmdb.org/t/p/w500/kAVRgw7GgK1CfWPlSo3zkwZKz2.jpg" alt="Pôster de Jurassic World"></a>
+          <div class="movie-info"><div><h3>Jurassic World</h3><p>Aventura · 2015</p></div><span class="rating">★ 6.7</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wide-banner">
+      <div><p class="eyebrow">UMA TELA. MILHARES DE HISTÓRIAS.</p><h2>Seu universo de filmes<br>está aqui.</h2></div>
+      <a class="outline-button" href="cadastro.html">Criar minha conta</a>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="index.html">🎬 CineVerse</a><span>Feito para quem ama cinema.</span><a href="login.html">Acessar conta</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVerse — Entrar</title><link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+  <header class="navbar"><a class="brand" href="index.html" aria-label="CineVerse início"><span class="brand-icon">🎬</span></a><nav><a href="index.html">Início</a><a href="index.html#catalogo">Catálogo</a><a class="active" href="login.html">Entrar</a></nav></header>
+  <main class="auth-wrap">
+    <section class="auth-art">
+      <div class="art-orb orb-one"></div><div class="art-orb orb-two"></div>
+      <div class="art-copy"><span class="eyebrow">BEM-VINDO DE VOLTA</span><h1>O filme não acaba aqui.</h1><p>Entre para continuar descobrindo histórias que combinam com você.</p></div>
+      <div class="film-strip">✦ DRAMA &nbsp; ✦ AVENTURA &nbsp; ✦ COMÉDIA &nbsp; ✦ FANTASIA</div>
+    </section>
+    <section class="auth-panel">
+      <a class="back-link" href="index.html">← Voltar para o início</a>
+      <div class="auth-heading"><span class="mini-logo">🎬</span><p class="eyebrow">CINEVERSE</p><h2>Entrar na sua conta</h2><p>Que bom ter você por aqui.</p></div>
+      <form class="auth-form" data-demo-form>
+        <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" required>
+        <div class="label-row"><label for="senha">Senha</label><a href="#" class="small-link" data-forgot>Esqueci minha senha</a></div>
+        <div class="password-field"><input id="senha" name="senha" type="password" placeholder="Digite sua senha" minlength="6" required><button type="button" class="show-password" aria-label="Mostrar senha">◉</button></div>
+        <button class="primary-button full-button" type="submit">Entrar <span>→</span></button>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+      <p class="auth-switch">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+      <p class="demo-note">Demonstração visual: o formulário não autentica em um servidor.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

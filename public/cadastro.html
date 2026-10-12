@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVerse — Criar conta</title><link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+  <header class="navbar"><a class="brand" href="index.html" aria-label="CineVerse início"><span class="brand-icon">🎬</span></a><nav><a href="index.html">Início</a><a href="index.html#catalogo">Catálogo</a><a href="login.html">Entrar</a></nav></header>
+  <main class="auth-wrap signup-wrap">
+    <section class="auth-art">
+      <div class="art-orb orb-one"></div><div class="art-orb orb-two"></div>
+      <div class="art-copy"><span class="eyebrow">FAÇA PARTE DO UNIVERSO</span><h1>Uma nova história começa com você.</h1><p>Crie seu perfil e monte sua própria jornada pelo cinema.</p></div>
+      <div class="film-strip">✦ DESCUBRA &nbsp; ✦ FAVORITE &nbsp; ✦ ASSISTA &nbsp; ✦ REPITA</div>
+    </section>
+    <section class="auth-panel">
+      <a class="back-link" href="index.html">← Voltar para o início</a>
+      <div class="auth-heading"><span class="mini-logo">🎬</span><p class="eyebrow">CINEVERSE</p><h2>Crie sua conta</h2><p>É rápido e você já pode começar.</p></div>
+      <form class="auth-form" data-demo-form>
+        <label for="nome">Nome</label><input id="nome" name="nome" type="text" placeholder="Como podemos te chamar?" required>
+        <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" required>
+        <label for="senha">Senha</label><input id="senha" name="senha" type="password" placeholder="Crie uma senha (mín. 6 caracteres)" minlength="6" required>
+        <button class="primary-button full-button" type="submit">Criar conta <span>→</span></button>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+      <p class="auth-switch">Já tem uma conta? <a href="login.html">Entrar</a></p>
+      <p class="demo-note">Demonstração visual: os dados não são enviados nem armazenados.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
